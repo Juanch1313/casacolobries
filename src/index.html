@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./estilos/estilos.css" rel="stylesheet" />
+    <link href="./estilos/output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/981c8ced16.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar goes here -->
+    <nav class="bg-[#4b7fc9] shadow-lg sticky-top">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex">
+          <div class="flex space-x-7 items-center justify-between w-full">
+            <div class="logotipo">
+              <!-- Website Logo -->
+              <a
+                href="#"
+                class="flex items-center py-4 px-2 logotipo"
+                title="Inicio de pagina"
+              >
+                <img
+                  style="width: 50px; height: 50px"
+                  src="./imagenes/Colibri.webp"
+                  alt="Logo"
+                  class="h-8 w-8 mr-2"
+                />
+                <span
+                  class="font-semibold text-bluesky text-2xl hover:text-gold transition duration-300"
+                  >Casa colibríes</span
+                >
+              </a>
+            </div>
+            <!-- Primary Navbar items -->
+            <div class="hidden md:flex items-end space-x-8 navegacion">
+              <a
+                href=""
+                class="py-5 px-2 text-bluesky font-semibold hover:text-gold border-b-4 border-transparent hover:border-b-4 hover:border-white hover:shadow-cyan-500/50 hover:shadow-inner transition duration-300"
+                >Inicio</a
+              >
+              <a
+                href=""
+                class="py-5 px-2 text-bluesky font-semibold hover:text-gold border-b-4 border-transparent hover:border-b-4 hover:border-white transition duration-300"
+                >Servicios</a
+              >
+              <a
+                href=""
+                class="py-5 px-2 text-bluesky font-semibold hover:text-gold border-b-4 border-transparent hover:border-b-4 hover:border-white transition duration-300"
+                >Hogar</a
+              >
+              <a
+                href=""
+                class="py-5 px-2 text-bluesky font-semibold hover:text-gold border-b-4 border-transparent hover:border-b-4 hover:border-white transition duration-300"
+                >Contacto</a
+              >
+            </div>
+            <div class="redes hidden md:flex items-center space-x-5">
+              <a
+                href="https://www.facebook.com/casacolibriesgdl"
+                target="_blank"
+                title="Síguenos en Facebook"
+                ><i
+                  class="fa-brands fa-facebook p-1 transition duration-300"
+                ></i
+              ></a>
+              <a
+                href="https://www.facebook.com/casacolibriesgdl"
+                target="_blank"
+                title="Síguenos en Instagram"
+                ><i
+                  class="fa-brands fa-instagram p-1 transition duration-300"
+                ></i
+              ></a>
+              <a href="" target="_blank" title="Llamanos para informacion"
+                ><i class="fa-solid fa-phone p-1 transition duration-300"></i
+              ></a>
+            </div>
+          </div>
+          <!-- Mobile menu button -->
+          <div class="md:hidden flex items-center">
+            <button class="outline-none mobile-menu-button">
+              <svg
+                class="w-6 h-6 text-bluesky hover:text-bluestrong"
+                x-show="!showMenu"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- mobile menu -->
+      <div class="hidden mobile-menu sticky-top">
+        <ul class="">
+          <li class="active">
+            <a
+              href="index.html"
+              class="block text-sm px-2 py-4 text-bluesky hover:text-gold font-semibold border-b-2 border-bluestrong"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#services"
+              class="block text-sm px-2 py-4 text-bluesky hover:text-gold transition duration-300 border-b-2 border-bluestrong"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="block text-sm px-2 py-4 text-bluesky hover:text-gold transition duration-300 border-b-2 border-bluestrong"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="block text-sm px-2 py-4 text-bluesky hover:text-gold transition duration-300 border-b-2 border-bluestrong"
+              >Contact Us</a
+            >
+          </li>
+		  <li class="text-center space-x-4">
+			<a
+			href="https://www.facebook.com/casacolibriesgdl"
+			target="_blank"
+			title="Síguenos en Facebook"
+			><i
+			  class="fa-brands fa-facebook p-1 transition duration-300"
+			></i
+		  ></a>
+		  <a
+			href="https://www.facebook.com/casacolibriesgdl"
+			target="_blank"
+			title="Síguenos en Instagram"
+			><i
+			  class="fa-brands fa-instagram p-1 transition duration-300"
+			></i
+		  ></a>
+		  <a href="" target="_blank" title="Llamanos para informacion"
+			><i class="fa-solid fa-phone p-1 transition duration-300"></i
+		  ></a>
+          </li>
+        </ul>
+		
+      </div>
+      <script>
+        const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+          menu.classList.toggle("hidden");
+        });
+      </script>
+    </nav>
+
+    <div class="carrussel relative">
+      <div
+        id="carouselExampleCrossfade"
+        class="carousel slide carousel-fade relative"
+        data-bs-ride="carousel"
+      >
+        <div
+          class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4"
+        >
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCrossfade"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCrossfade"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCrossfade"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner relative w-full overflow-hidden">
+          <div class="carousel-item active float-left w-full">
+            <img
+              src="./imagenes/huespedes/huespedes1.jpg"
+              class="block w-full"
+              alt="Wild Landscape"
+            />
+          </div>
+          <div class="carousel-item float-left w-full">
+            <img
+              src="./imagenes/huespedes/huespedes2.jpg"
+              class="block w-full"
+              alt="Camera"
+            />
+          </div>
+          <div class="carousel-item float-left w-full">
+            <img
+              src="./imagenes/huespedes/huespedes3.jpg"
+              class="block w-full"
+              alt="Exotic Fruits"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+          type="button"
+          data-bs-target="#carouselExampleCrossfade"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon inline-block bg-no-repeat p-10"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+          type="button"
+          data-bs-target="#carouselExampleCrossfade"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon inline-block bg-no-repeat p-10"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="md:grid formulario static md:absolute w-full top-[10%] justify-items-end right-[20%]"> 
+        <div class="grid left-0 w-full md:w-1/4">
+          <h1 class=" bg-bluestrong text-3xl text-center text-white">¿Te contactamos?</h1>
+          <p class=" bg-bluestrong text-xl text-center text-gray-200 border-b-4 mb-2 shadow-sm">Nos aseguraremos de brindarte la mayor atencion posible</p>
+        </div>
+        <div class="w-full md:w-1/4 p-10 bg-bluesky text-left flex justify-center">
+          <form class="bg-bluestrong rounded px-8 pt-6 pb-8 mb-4 shadow-2xl">
+            <div class="mb-4">
+              <label class="block text-gold text-sm font-bold mb-2" for="name">
+                Nombre
+              </label>
+              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Tu nombre">
+            </div>
+            <div class="mb-6">
+              <label class="block text-gold text-sm font-bold mb-2" for="telefono">
+                Telefono
+              </label>
+              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="telefono" type="text" placeholder="Télefono">
+            </div>
+            <div class="mb-6">
+              <label class="block text-gold text-sm font-bold mb-2" for="email">
+                Correo
+              </label>
+              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Tu Correo">
+            </div>
+            <div class="mb-6">
+              <label class="block text-gold text-sm font-bold mb-2" for="comentarios">
+                Comentarios
+              </label>
+              <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" rows="3" id="comentarios"  placeholder="Hablanos de tus necesidades"></textarea>
+            </div>
+            <div class="flex items-center justify-center">
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-20 rounded focus:outline-none focus:shadow-outline" type="button">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+	<main>
+	</main>
+
+    <script src="../node_modules/tw-elements/dist/js/index.min.js"></script>
+    <script src="../node_modules/flowbite/dist/flowbite.js"></script>
+  </body>
+</html>

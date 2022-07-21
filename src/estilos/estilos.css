@@ -1,0 +1,54 @@
+.logotipo img:hover{
+    animation: vuelavuela 4s forwards;
+}
+
+.navegacion{
+    text-transform: uppercase;
+}
+
+.fa-facebook{
+    color: #ffcb5b;
+    font-size: 30px !important;
+    border: 5px outset #3c6eb4;
+    border-radius: 50%;
+}
+
+.fa-facebook:hover{
+    color: blue;
+    background-color: white;
+    animation: vuelavuela 2s forwards;
+}
+
+.fa-instagram{
+    color: #ffcb5b;
+    font-size: 30px !important;
+    border: 5px outset #3c6eb4;
+    border-radius: 50%;
+}
+
+.fa-instagram:hover{
+    color: white;
+    background-color: #bc2a8d;
+    animation: vuelavuela 2s forwards;
+}
+
+.fa-phone{
+    color: #ffcb5b;
+    font-size: 30px !important;
+    border: 5px outset #3c6eb4;
+    border-radius: 50%;
+}
+
+.fa-phone:hover{
+    color: black;
+    background-color: white;
+    animation: vuelavuela 2s forwards;
+}
+
+@keyframes vuelavuela{
+    0% { transform:rotate(0deg);}
+    25% {transform:rotate(60deg);}
+    50% {transform:rotate(10deg);}
+    75% {transform:rotate(100deg);}
+    100% {transform:rotate(0deg);}
+}
