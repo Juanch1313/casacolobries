@@ -9,6 +9,9 @@
       src="https://kit.fontawesome.com/981c8ced16.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Navbar goes here -->
@@ -19,7 +22,7 @@
             <div class="logotipo">
               <!-- Website Logo -->
               <a
-                href="#"
+                href="#inicio"
                 class="flex items-center py-4 px-2 logotipo"
                 title="Inicio de pagina"
               >
@@ -38,19 +41,19 @@
             <!-- Primary Navbar items -->
             <div class="hidden md:flex items-end space-x-8 navegacion">
               <a
-                href=""
+                href="#inicio"
                 class="py-5 px-2 text-bluesky font-semibold hover:text-gold border-b-4 border-transparent hover:border-b-4 hover:border-white hover:shadow-cyan-500/50 hover:shadow-inner transition duration-300"
                 >Inicio</a
               >
               <a
-                href=""
+                href="#modelo"
                 class="py-5 px-2 text-bluesky font-semibold hover:text-gold border-b-4 border-transparent hover:border-b-4 hover:border-white transition duration-300"
-                >Servicios</a
+                >Modelo</a
               >
               <a
-                href=""
+                href="#actividades"
                 class="py-5 px-2 text-bluesky font-semibold hover:text-gold border-b-4 border-transparent hover:border-b-4 hover:border-white transition duration-300"
-                >Hogar</a
+                >Activides y Servicios</a
               >
               <a
                 href=""
@@ -104,7 +107,7 @@
         <ul class="">
           <li class="active">
             <a
-              href="index.html"
+              href="#inicio"
               class="block text-sm px-2 py-4 text-bluesky hover:text-gold font-semibold border-b-2 border-bluestrong"
               >Home</a
             >
@@ -164,7 +167,7 @@
       </script>
     </nav>
 
-    <div class="carrussel relative">
+    <div id="inicio" class="carrussel relative">
       <div
         id="carouselExampleCrossfade"
         class="carousel slide carousel-fade relative"
@@ -224,7 +227,7 @@
           data-bs-slide="prev"
         >
           <span
-            class="carousel-control-prev-icon inline-block bg-no-repeat p-10"
+            class="carousel-control-prev-icon inline-block bg-no-repeat md:p-10"
             aria-hidden="true"
           ></span>
           <span class="visually-hidden">Previous</span>
@@ -236,18 +239,18 @@
           data-bs-slide="next"
         >
           <span
-            class="carousel-control-next-icon inline-block bg-no-repeat p-10"
+            class="carousel-control-next-icon inline-block bg-no-repeat md:p-10"
             aria-hidden="true"
           ></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="md:grid formulario static md:absolute w-full top-[10%] justify-items-end right-[20%]"> 
-        <div class="grid left-0 w-full md:w-1/4">
-          <h1 class=" bg-bluestrong text-3xl text-center text-white">¿Te contactamos?</h1>
-          <p class=" bg-bluestrong text-xl text-center text-gray-200 border-b-4 mb-2 shadow-sm">Nos aseguraremos de brindarte la mayor atencion posible</p>
+      <div class="lg:grid formulario static lg:absolute w-full md:top-[10%] justify-items-end"> 
+        <div class="grid w-full lg:w-1/4 md:mr-32 titulo justify-items-center bg-bluesky">
+          <h1 class=" bg-bluesky text-xl text-center text-white md:text-3xl ">¿Te contactamos?</h1>
+          <p class=" bg-bluesky text-lg text-center text-gray-200 md:text-xl">Nos aseguraremos de brindarte la mayor atencion posible</p>
         </div>
-        <div class="w-full md:w-1/4 p-10 bg-bluesky text-left flex justify-center">
+        <div class="w-full lg:w-1/4 md:mr-32 p-10 bg-bluesky text-left flex justify-center">
           <form class="bg-bluestrong rounded px-8 pt-6 pb-8 mb-4 shadow-2xl">
             <div class="mb-4">
               <label class="block text-gold text-sm font-bold mb-2" for="name">
@@ -282,9 +285,371 @@
         </div>
       </div>
     </div>
+    <div class="colibri bg-slate-200 pt-[6rem]">
+      <h2 class="text-3xl font-bold text-center text-bluestrong mb-5">Casa colibríes</h2>
+      <p class="text-xl justify text-center mb-20 opacity-70">Es el mejor concepto de vida para personas mayores de edad en México. Somos expertos en el cuidado, atencion así como el constante desarrollo de habilidades de nuestros pacientes. 
+        <br/> 
+      Más que un alojamiento es el mejor motivo para nunca perder <strong>la felicidad de la vida.</strong>
+      </p>
 
-	<main>
-	</main>
+      <a href="#modelo" class="cursor-pointer flex justify-center mb-[4rem]">
+        <span class="inline-block animate-bounce rounded-full p-4 bg-bluestrong text-white text-sm">
+        <svg class="w-6 h-6 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
+          </svg>
+      </span>
+  </a>
+    </div>
+
+    <div id="modelo" class="modelo bg-slate-200 py-[1rem]">
+      <h2 class="text-3xl font-bold text-center text-black bg-gradient-to-r from-green-400 to-blue-500 py-4">Modelo Casa colibríes</h2>
+      <p class="text-center my-5 mb-20 opacity-70 text-2xl">En Casa colibríes vemos al adulto de manera integral, por lo tanto, <br/>
+        nuestros servicios giran en torno a enriquecer las <br>
+        <strong>DIMENSIONES DEL BIENESTAR:</strong></p>
+      <div class="contenedor hidden md:grid grid-cols-3 w-[95%] m-auto">
+        <div class="flex flex-col justify-center space-y-10">
+          <button data-tooltip-target="tooltip-right" data-tooltip-placement="right" type="button" class="w-[80%] h-20 mb-2 md:mb-0 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg  px-5 py-2.5 text-center  hover:shadow-gold hover:shadow-inner inline-block text-xl "><i class="fa-solid fa-people-group mr-10 text-4xl rounded-full text-gold"></i> Dimension Social</button>
+          <div id="tooltip-right" role="tooltip" class="inline-block absolute w-1/4 invisible z-10 text-center text-sm font-medium text-white bg-bluesky rounded-lg shadow-2xl opacity-0 tooltip">
+            <h1 class="w-full text-2xl bg-bluestrong">Dimension Social</h1>
+            <p class="text-lg">Convivencia con personas afines, relaciones interpersonales sinceras, dinámicas y actividades de grupo, excursiones culturales y recreativas, entre otras.</p>
+          <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+
+        <button data-tooltip-target="tooltip-intelectual" data-tooltip-placement="right" type="button" class="w-[80%] h-20 mb-2 md:mb-0 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 hover:shadow-gold hover:shadow-inner dark:focus:ring-blue-800 text-xl"> 
+          <i class="fa-solid fa-brain mr-5 text-4xl rounded-full text-gold"></i> Dimension Intelectual</button>
+        <div id="tooltip-intelectual" role="tooltip" class="inline-block absolute w-1/4 invisible z-10 text-center text-sm font-medium text-white bg-bluesky rounded-lg shadow-2xl opacity-0 tooltip">
+          <h1 class="w-full text-2xl bg-bluestrong">Dimension Intelectual</h1>
+          <p class="text-lg">Convivencia con personas afines, relaciones interpersonales sinceras, dinámicas y actividades de grupo, excursiones culturales y recreativas, entre otras.</p>
+        <div class="tooltip-arrow" data-popper-arrow></div>
+      </div>
+        </div>
+
+        <img class="shadow-2xl" src="./imagenes/lgo.webp" alt="Logo casa colibríes">
+
+      <div class="flex flex-col justify-center items-end space-y-10">
+          <button data-tooltip-target="tooltip-emocional" data-tooltip-placement="left" type="button"    class="w-[80%] h-20 mb-2 md:mb-0 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-xl hover:shadow-gold hover:shadow-inner">
+            <i class="fa-solid fa-hand-holding-heart mr-5 text-4xl rounded-full text-gold"></i> Dimension Emocional</button>
+          <div id="tooltip-emocional" role="tooltip" class="inline-block absolute w-1/4 invisible z-10 text-center text-sm font-medium text-white bg-bluesky rounded-lg shadow-2xl opacity-0 tooltip">
+            <h1 class="w-full text-2xl bg-bluestrong">Dimension Emocional</h1>
+            <p class="text-lg">Acompañamiento, escucha atenta, interés real por la persona, seguimiento para combatir cuadros depresivos o ansiosos propios de la edad, involucramiento de familiares para fortalecer lazos afectivos, talleres de expresión corporal como canto, arte, teatro, etc.</p>
+          <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+
+        <button data-tooltip-target="tooltip-espiritual" data-tooltip-placement="left" type="button"    class="w-[80%] h-20 mb-2 md:mb-0 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-xl hover:shadow-gold hover:shadow-inner">
+          <i class="fa-solid fa-church mr-5 text-4xl rounded-full text-gold "></i> Dimension Espiritual</button>
+          <div id="tooltip-espiritual" role="tooltip" class="inline-block absolute w-1/4 invisible z-10 text-center text-sm font-medium text-white bg-bluesky rounded-lg shadow-2xl opacity-0 tooltip">
+            <h1 class="w-full text-2xl bg-bluestrong"> Dimension Espiritual</h1>
+            <p class="text-lg">Confesión, misa, rezo del rosario, taller de mindfulness, etc.</p>
+          <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+
+        <button data-tooltip-target="tooltip-fisica" data-tooltip-placement="left" type="button"    class="w-[80%] h-20 mb-2 md:mb-0 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-xl hover:shadow-gold hover:shadow-inner">
+          <i class="fa-solid fa-person-hiking mr-14 text-4xl rounded-full text-gold"></i>Dimension Fisica</button>
+          <div id="tooltip-fisica" role="tooltip" class="inline-block absolute w-1/4 invisible z-10 text-center text-sm font-medium text-white bg-bluesky rounded-lg shadow-2xl opacity-0 tooltip">
+            <h1 class="w-full text-2xl bg-bluestrong">Dimension Fisica</h1>
+            <p class="text-lg">Alimentación saludable, terapia física, relajación muscular, atención médica de primer contacto, suministro de medicamento, higiene personal, estética, barbería, podología clínica, taller de baile, entre otros.</p>
+          <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+
+        </div>
+      </div>
+
+      <!--Accordion mobile-->
+      <div class="accordion block md:hidden" id="accordionExample">
+        <img class="shadow-2xl w-4/5 m-auto" src="./imagenes/lgo.webp" alt="Logo casa colibríes">
+        <div class="accordion-item bg-white border border-gray-200">
+          <h2 class="accordion-header mb-0" id="headingOne">
+            <button class="
+              accordion-button
+              relative
+              flex
+              items-center
+              w-full
+              py-4
+              px-5
+              text-base text-gray-800 text-left
+              bg-white
+              border-0
+              rounded-none
+              transition
+              focus:outline-none
+            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+              aria-controls="collapseOne">
+              Dimension Social
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body py-4 px-5">
+              Convivencia con personas afines, relaciones interpersonales sinceras, dinámicas y actividades de grupo, excursiones culturales y recreativas, entre otras.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-white border border-gray-200">
+          <h2 class="accordion-header mb-0" id="headingTwo">
+            <button class="
+              accordion-button
+              collapsed
+              relative
+              flex
+              items-center
+              w-full
+              py-4
+              px-5
+              text-base text-gray-800 text-left
+              bg-white
+              border-0
+              rounded-none
+              transition
+              focus:outline-none
+            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+              aria-controls="collapseTwo">
+              Dimension Intelectual
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body py-4 px-5">
+              Convivencia con personas afines, relaciones interpersonales sinceras, dinámicas y actividades de grupo, excursiones culturales y recreativas, entre otras.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-white border border-gray-200">
+          <h2 class="accordion-header mb-0" id="headingThree">
+            <button class="
+              accordion-button
+              collapsed
+              relative
+              flex
+              items-center
+              w-full
+              py-4
+              px-5
+              text-base text-gray-800 text-left
+              bg-white
+              border-0
+              rounded-none
+              transition
+              focus:outline-none
+            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+              aria-controls="collapseThree">
+              Dimension Emocional
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body py-4 px-5">
+              Acompañamiento, escucha atenta, interés real por la persona, seguimiento para combatir cuadros depresivos o ansiosos propios de la edad, involucramiento de familiares para fortalecer lazos afectivos, talleres de expresión corporal como canto, arte, teatro, etc.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-white border border-gray-200">
+          <h2 class="accordion-header mb-0" id="headingThree">
+            <button class="
+              accordion-button
+              collapsed
+              relative
+              flex
+              items-center
+              w-full
+              py-4
+              px-5
+              text-base text-gray-800 text-left
+              bg-white
+              border-0
+              rounded-none
+              transition
+              focus:outline-none
+            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+              aria-controls="collapseFour">
+              Dimension Espiritual
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="collapseFour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body py-4 px-5">
+              Confesión, misa, rezo del rosario, taller de mindfulness, etc.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-white border border-gray-200">
+          <h2 class="accordion-header mb-0" id="headingThree">
+            <button class="
+              accordion-button
+              collapsed
+              relative
+              flex
+              items-center
+              w-full
+              py-4
+              px-5
+              text-base text-gray-800 text-left
+              bg-white
+              border-0
+              rounded-none
+              transition
+              focus:outline-none
+            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+              aria-controls="collapseFive">
+              Dimension Fisica
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body py-4 px-5">
+              Alimentación saludable, terapia física, relajación muscular, atención médica de primer contacto, suministro de medicamento, higiene personal, estética, barbería, podología clínica, taller de baile, entre otros.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="actividades">
+      <div class="titulo-actividad mt-10 mb-10">
+        <h2 class="text-3xl font-bold text-center text-black bg-gradient-to-r from-green-400 to-blue-500 py-4">Actividades y servicios</h2>
+      </div>
+      <div class="contenedor flex flex-col md:flex-row w-[90%] m-auto space-x-5">
+        <div class="w-full md:basis-1/2">
+          <button type="button" class="inline-block px-6 py-2.5  text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-bs-toggle="modal" data-bs-target="#exampleModalCenteredScrollable">
+            <img src="./imagenes/huespedes/huespedes5.jpg" alt="" width="600px">
+            <h2 class="text-center text-letters text-2xl mt-2">Manualidades y artes plasticas</h2>
+          </button>
+          <div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto" id="exampleModalCenteredScrollable" tabindex="-1" aria-labelledby="exampleModalCenteredScrollable" aria-modal="true" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable relative w-auto pointer-events-none">
+              <div class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+                <div class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+                  <h2 class="text-2xl font-medium leading-normal text-gray-800" id="exampleModalCenteredScrollableLabel">
+                    Manualidades y artes plasticas
+                  </h2>
+                  <button type="button"
+                    class="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body relative p-4">
+                  <p>El esparcimiento dentro de nuestro hogar es de suma importancia, por ello tenemos a una persona con un amor inmensurable
+                    y dedicación a nuestros residentes para mantener un constante desarrollo de sus sentidos.</p>
+                    <br>
+                    <img src="./imagenes/huespedes/huespedes5.jpg" alt="" width="600px">
+                </div>
+                <div
+                  class="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
+                  <button type="button"
+                    class="inline-block px-6 py-2.5 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out"
+                    data-bs-dismiss="modal">
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="w-full md:basis-1/2">
+        <button type="button" class="inline-block px-6 py-2.5  text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-bs-toggle="modal" data-bs-target="#exampleModalCenteredScrollable2">
+          <img src="./imagenes/huespedes/huespedes9.jpg" alt="" width="600px">
+          <h2 class="text-center text-letters text-2xl mt-2">Movilidad Y Baile</h2>
+        </button>
+        <div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto" id="exampleModalCenteredScrollable2" tabindex="-1" aria-labelledby="exampleModalCenteredScrollable" aria-modal="true" role="dialog">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable relative w-auto pointer-events-none">
+            <div class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+              <div class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+                <h2 class="text-2xl font-medium leading-normal text-gray-800" id="exampleModalCenteredScrollableLabel2">
+                  Movilidad Y Baile
+                </h2>
+                <button type="button"
+                  class="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                  data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body relative p-4">
+                <p>Miembro de la Royal Academy of Dance con el titulo de "Solo Seal", nuestra maestra de movimiento y baile imparte el
+                  programa "Black Swan" diseñado específicamente para los integrantes de nuestra familia. Fue parte mucho tiempo de la
+                  Compañía Nacional de Danza.
+                  <br>
+                  <img src="./imagenes/huespedes/huespedes9.jpg">
+              </div>
+              <div
+                class="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
+                <button type="button"
+                  class="inline-block px-6 py-2.5 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out"
+                  data-bs-dismiss="modal">
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="contenedor flex flex-col md:flex-row w-[90%] m-auto mt-5 space-x-5">
+      <div class="w-full md:basis-1/2">
+        <button type="button" class="inline-block px-6 py-2.5  text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-bs-toggle="modal" data-bs-target="#exampleModalCenteredScrollable3">
+          <img src="./imagenes/huespedes/huespedes6.jpg" alt="" width="600px">
+          <h2 class="text-center text-letters text-2xl mt-2">Asistencia psicológica</h2>
+        </button>
+        <div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto" id="exampleModalCenteredScrollable3" tabindex="-1" aria-labelledby="exampleModalCenteredScrollable3" aria-modal="true" role="dialog">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable relative w-auto pointer-events-none">
+            <div class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+              <div class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+                <h2 class="text-2xl font-medium leading-normal text-gray-800" id="exampleModalCenteredScrollableLabel3">
+                  Asistencia psicológica
+                </h2>
+                <button type="button"
+                  class="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                  data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body relative p-4">
+                <p>Con maestría en Psicología Geriátrica, nuestra psicóloga de cabecera no solo esta especializada en nuestros seres queridos,
+                  además tiene amplia experiencia en su trato y desenvolvimiento en el área y como todos los integrantes de nuestra familia, su
+                  amor y pasión por los nuestros es su mayor motivación.</p>
+                  <br>
+                  <img src="./imagenes/huespedes/huespedes6.jpg" alt="" width="600px">
+              </div>
+              <div
+                class="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
+                <button type="button"
+                  class="inline-block px-6 py-2.5 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out"
+                  data-bs-dismiss="modal">
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="w-full md:basis-1/2">
+      <button type="button" class="inline-block px-6 py-2.5  text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-bs-toggle="modal" data-bs-target="#exampleModalCenteredScrollable4">
+        <img src="./imagenes/huespedes/huespedes10.jpg" alt="" width="600px">
+        <h2 class="text-center text-letters text-2xl mt-2">Meditación</h2>
+      </button>
+      <div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto" id="exampleModalCenteredScrollable4" tabindex="-1" aria-labelledby="exampleModalCenteredScrollable4" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable relative w-auto pointer-events-none">
+          <div class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+            <div class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+              <h2 class="text-2xl font-medium leading-normal text-gray-800" id="exampleModalCenteredScrollableLabel4">
+                Movilidad Y Baile
+              </h2>
+              <button type="button"
+                class="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body relative p-4">
+              <p>La paz interior es fundamental para estar en armonía y plenitud, nuestra maestra de yoga y meditación imparte a nuestra
+                familia. Tiene certificación por la Asociación Nacional de Yoga y se especializa en personas de la tercera edad.
+                <br>
+                <img src="./imagenes/huespedes/huespedes10.jpg">
+            </div>
+            <div
+              class="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
+              <button type="button"
+                class="inline-block px-6 py-2.5 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out"
+                data-bs-dismiss="modal">
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
 
     <script src="../node_modules/tw-elements/dist/js/index.min.js"></script>
     <script src="../node_modules/flowbite/dist/flowbite.js"></script>
