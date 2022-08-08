@@ -4,9 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Casa Colibríes | Residencia para Adultos Mayores</title>
-		<link href="/src/estilos/estilos.css" rel="stylesheet" />
-		<link href="/src/estilos/output.css" rel="stylesheet" />
-		<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+		<link href="./estilos/estilos.css" rel="stylesheet" />
+		<link href="./estilos.css" rel="stylesheet" />
+		<link href="./estilos/output.css" rel="stylesheet" />
+		<link rel="icon" href="./assets/img/lgo.webp" type="image/svg+xml" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -54,7 +55,7 @@
 								title="Inicio de pagina"
 							>
 								<img
-									src="/assets/img/colibri.svg"
+									src="./assets/img/colibri.svg"
 									alt="Logo colibri"
 									class="h-10 w-10 mr-1 lg:h-[5rem] lg:w-[5rem]"
 								/>
@@ -92,9 +93,9 @@
 								>Activides y Servicios</a
 							>
 							<a
-								href=""
+								href="#ubicacion"
 								class="py-5 px-2 text-btnNavegacion font-fashion font-extrabold hover:text-[#F23D3D] border-b-4 border-transparent hover:border-b-4 hover:border-[#73D9BC] transition duration-300"
-								>Contacto</a
+								>Ubicacion</a
 							>
 						</div>
 						<!-- Redes -->
@@ -110,7 +111,7 @@
 								></i
 							></a>
 							<a
-								href="https://www.facebook.com/casacolibriesgdl"
+								href="https://www.instagram.com/casacolibries.gdl/"
 								target="_blank"
 								title="Síguenos en Instagram"
 								><i
@@ -118,8 +119,7 @@
 								></i
 							></a>
 							<a
-								href=""
-								target="_blank"
+								href="tel:3333944366"
 								title="Llamanos para informacion"
 								><i
 									class="fa-solid fa-phone p-2 transition duration-300"
@@ -147,7 +147,7 @@
 				</div>
 			</div>
 			<!-- mobile menu -->
-			<div class="hidden mobile-menu sticky-top">
+			<div class="hidden mobile-menu sticky-top navegacion">
 				<ul class="">
 					<li class="active">
 						<a
@@ -172,9 +172,9 @@
 					</li>
 					<li>
 						<a
-							href=""
+							href="#ubicacion"
 							class="block text-sm px-2 py-4 font-montserrtA font-bold text-btnNavegacion hover:text-btnNavegacionHover transition duration-300 border-b-2 border-[#F9493A]"
-							>Contacto</a
+							>Ubicacion</a
 						>
 					</li>
 					<!-- Redes (Celulares) -->
@@ -188,7 +188,7 @@
 							></i
 						></a>
 						<a
-							href="https://www.facebook.com/casacolibriesgdl"
+							href="https://www.instagram.com/casacolibries.gdl/"
 							target="_blank"
 							title="Síguenos en Instagram"
 							><i
@@ -196,8 +196,7 @@
 							></i
 						></a>
 						<a
-							href=""
-							target="_blank"
+							href="tel:3333944366"
 							title="Llamanos para informacion"
 							><i
 								class="fa-solid fa-phone p-[.40rem] transition duration-300"
@@ -251,21 +250,21 @@
 						class="carousel-item active relative float-left w-full"
 					>
 						<img
-							src="/assets/img/huespedes/huespedes1.jpg"
+							src="./assets/img/huespedes/huespedes1.jpg"
 							class="block w-full"
 							alt="Fiesta huespedes 1"
 						/>
 					</div>
 					<div class="carousel-item relative float-left w-full">
 						<img
-							src="/assets/img/huespedes/huespedes2.jpg"
+							src="./assets/img/huespedes/huespedes2.jpg"
 							class="block w-full"
 							alt="Fiesta huespedes 2"
 						/>
 					</div>
 					<div class="carousel-item relative float-left w-full">
 						<img
-							src="/assets/img/huespedes/huespedes3.jpg"
+							src="./assets/img/huespedes/huespedes3.jpg"
 							class="block w-full"
 							alt="Fiesta huespedes 3"
 						/>
@@ -319,6 +318,9 @@
 				>
 					<form
 						class="bg-[#008282] rounded px-8 pt-6 pb-8 mb-4 shadow-[1px_1px_20px_12px_rgba(0,0,0,.25)]"
+						action="https://formsubmit.co/brandon_dali@hotmail.es"
+						method="POST"
+						id="contacto"
 					>
 						<div class="mb-4">
 							<label
@@ -330,8 +332,10 @@
 							<input
 								class="shadow appearance-none border font-sans font-semibold text-base rounded w-full py-2 px-3 text-gray-900 leading-tight focus:outline-none focus:shadow-outline"
 								id="name"
+								name="Nombre"
 								type="text"
 								placeholder="Tu nombre"
+								required
 							/>
 						</div>
 						<div class="mb-6">
@@ -343,9 +347,11 @@
 							</label>
 							<input
 								class="shadow appearance-none border rounded font-sans font-semibold text-base w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-								id="telefono"
+								id="Telefono"
+								name="Telefono"
 								type="text"
 								placeholder="Teléfono"
+								required
 							/>
 						</div>
 						<div class="mb-6">
@@ -358,8 +364,10 @@
 							<input
 								class="shadow appearance-none border rounded font-sans font-semibold text-base w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
 								id="email"
+								name="Correo"
 								type="email"
 								placeholder="Tu Correo"
+								required
 							/>
 						</div>
 						<div class="mb-6">
@@ -373,13 +381,15 @@
 								class="shadow appearance-none border rounded font-sans font-semibold text-base w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
 								rows="3"
 								id="comentarios"
+								name="Mensaje"
 								placeholder="Hablanos de tus necesidades"
+								required
 							></textarea>
 						</div>
 						<div class="flex items-center justify-center">
 							<button
 								class="bg-[#b22222] hover:bg-opacity-90 text-[#f2f2f2] font-serif py-2 px-20 rounded-[0.45rem] focus:outline-none focus:shadow-outline shadow-[1px_1px_10px_12px_rgba(252,165,165,.18)]"
-								type="button"
+								type="submit"
 							>
 								Enviar
 							</button>
@@ -529,7 +539,7 @@
 
 				<img
 					class="shadow-2xl object-cover w-full"
-					src="/assets/img/lgo.webp"
+					src="./assets/img/lgo.webp"
 					alt="Logo casa colibríes"
 				/>
 
@@ -629,7 +639,7 @@
 			<div class="accordion block md:hidden" id="accordionExample">
 				<img
 					class="shadow-[0_4px_24px_8px_rgba(255,124,104,.39)] w-4/5 m-auto my-5"
-					src="/assets/img/Colibri.webp"
+					src="./assets/img/Colibri.webp"
 					alt="Logo casa colibríes"
 				/>
 				<div class="accordion-item bg-white border border-gray-200">
@@ -796,10 +806,10 @@
 						data-bs-target="#exampleModalCenteredScrollable"
 					>
 						<img
-							src="../assets/img/huespedes/huespedes5.jpg"
+							src="./assets/img/huespedes/huespedes5.jpg"
 							alt="Manualidades de huespedes"
 							class="object-cover w-full h-auto rounded-md shadow-[0_0_20px_-2px_rgba(0,0,0,.54)]"
-						/>
+						/>>>>>>> main />
 						<h2
 							class="text-center font-fashion text-letters text-base md:text-2xl mt-3"
 						>
@@ -847,7 +857,7 @@
 									</p>
 									<br />
 									<img
-										src="../assets/img/huespedes/huespedes5.jpg"
+										src="./assets/img/huespedes/huespedes5.jpg"
 										alt=""
 										width="600px"
 										height="300px"
@@ -876,10 +886,10 @@
 						data-bs-target="#exampleModalCenteredScrollable2"
 					>
 						<img
-							src="../assets/img/huespedes/huespedes9.jpg"
+							src="./assets/img/huespedes/huespedes9.jpg"
 							class="object-cover w-full h-auto rounded-md shadow-[0_0_20px_-2px_rgba(0,0,0,.54)]"
 							alt="Huespedes bailando"
-						/>
+						/>>>>>>> main />
 						<h2
 							class="text-center font-fashion font-bold leading-tight text-letters text-base md:text-2xl mt-3"
 						>
@@ -927,7 +937,7 @@
 										de la Compañía Nacional de Danza.
 										<br />
 										<img
-											src="../assets/img/huespedes/huespedes9.jpg"
+											src="./assets/img/huespedes/huespedes9.jpg"
 											width="600px"
 											height="300px"
 										/>
@@ -961,7 +971,7 @@
 						data-bs-target="#exampleModalCenteredScrollable3"
 					>
 						<img
-							src="../assets/img/huespedes/huespedes6.jpg"
+							src="./assets/img/huespedes/huespedes6.jpg"
 							alt="Huespedes reunidos con una psicóloga"
 							class="object-cover w-full h-auto rounded-md shadow-[0_0_20px_-2px_rgba(0,0,0,.54)]"
 						/>
@@ -1015,7 +1025,7 @@
 									</p>
 									<br />
 									<img
-										src="../assets/img/huespedes/huespedes6.jpg"
+										src="./assets/img/huespedes/huespedes6.jpg"
 										alt=""
 										width="600px"
 									/>
@@ -1043,10 +1053,10 @@
 						data-bs-target="#exampleModalCenteredScrollable4"
 					>
 						<img
-							src="../assets/img/huespedes/huespedes10.jpg"
+							src="./assets/img/huespedes/huespedes10.jpg"
 							class="object-cover w-full h-auto rounded-md shadow-[0_0_20px_-2px_rgba(0,0,0,.54)]"
 							alt="Huespedes meditando"
-						/>
+						/>>>>>>> main />
 						<h2
 							class="text-center font-fashion text-letters text-base md:text-2xl mt-3"
 						>
@@ -1094,7 +1104,7 @@
 										edad.
 										<br />
 										<img
-											src="../assets/img/huespedes/huespedes10.jpg"
+											src="./assets/img/huespedes/huespedes10.jpg"
 										/>
 									</p>
 								</div>
@@ -1116,7 +1126,74 @@
 				</div>
 			</div>
 		</div>
+
+		<div id="ubicacion" class="">
+			<div class="bg-gradient-to-r from-green-400 to-blue-500 py-10 mb-8">
+				<h2
+					class="text-[1.40rem] md:text-3xl font-fashion font-extrabold text-[#34515e] text-center drop-shadow-[0_0_2px_rgba(33,43,79,0.30)]"
+				>
+					¡Ven a visitarnos!
+				</h2>
+			</div>
+			<iframe
+				class="w-full h-96"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1109.6185119633667!2d-103.39032279398438!3d20.69816424051749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af2739466a81%3A0xf77990567452cea5!2sCasa%20Colibr%C3%ADes%2C%20Residencia%20de%20Descanso!5e0!3m2!1ses-419!2smx!4v1659933033207!5m2!1ses-419!2smx"
+				width="600"
+				height="450"
+				style="border: 0"
+				allowfullscreen=""
+				loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"
+			></iframe>
+		</div>
+		<div
+			id="footer"
+			class="w-full h-20 flex flex-row flex-wrap mt-10 items-center"
+		>
+			<div class="basis-1/2 text-center">
+				<p class="text-xl">
+					Copyright &copy; 2022 Casa colibríes - Todos los derechos
+					reservados
+				</p>
+			</div>
+			<div class="basis-1/2 text-center">
+				<h3 class="text-xl">Horario</h3>
+				<p>Lunes a Viernes</p>
+				<p>9:00 AM - 5:00 PM</p>
+			</div>
+			<div class="redes flex justify-center space-x-5 mt-5 basis-full">
+				<a
+					href="https://www.facebook.com/casacolibriesgdl"
+					target="_blank"
+					title="Síguenos en Facebook"
+					><i
+						class="fa-brands fa-facebook p-2 transition duration-300"
+					></i
+				></a>
+				<a
+					href="https://www.instagram.com/casacolibries.gdl/"
+					target="_blank"
+					title="Síguenos en Instagram"
+					><i
+						class="fa-brands fa-instagram p-2 transition duration-300"
+					></i
+				></a>
+				<a href="tel:3333944366" title="Llamanos para informacion"
+					><i
+						class="fa-solid fa-phone p-2 transition duration-300"
+					></i
+				></a>
+			</div>
+			<div class="solve basis-full justify-items-end flex">
+				<p class="text-center">Por Solver clusters &reg;</p>
+			</div>
+		</div>
 		<script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+		<script>
+			function limpiarFormulario() {
+				document.getElementById("contacto").reset();
+			}
+		</script>
 	</body>
 </html>

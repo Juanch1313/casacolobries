@@ -4252,6 +4252,10 @@ textarea.form-control.is-invalid{
   margin-top: 1.25rem;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -4314,6 +4318,10 @@ textarea.form-control.is-invalid{
 
 .h-4{
   height: 1rem;
+}
+
+.h-96{
+  height: 24rem;
 }
 
 .h-9{
@@ -4382,6 +4390,14 @@ textarea.form-control.is-invalid{
 
 .flex-shrink{
   flex-shrink: 1;
+}
+
+.basis-1\/2{
+  flex-basis: 50%;
+}
+
+.basis-full{
+  flex-basis: 100%;
 }
 
 .-translate-x-full{
@@ -5477,7 +5493,7 @@ textarea.form-control.is-invalid{
 
   font-weight: 400;
 
-  src: url("/assets/font/LinuxLibertine/LinLibertine_Rah.ttf")
+  src: url("./assets/font/LinuxLibertine/LinLibertine_Rah.ttf")
 		format("TrueType");
 }
 
@@ -5486,7 +5502,7 @@ textarea.form-control.is-invalid{
 
   font-weight: 700;
 
-  src: url("/assets/font/LinuxLibertine/LinLibertine_RBah.ttf")
+  src: url("./assets/font/LinuxLibertine/LinLibertine_RBah.ttf")
 		format("TrueType");
 }
 
@@ -5497,7 +5513,7 @@ textarea.form-control.is-invalid{
 
   font-style: italic;
 
-  src: url("/assets/font/LinuxLibertine/LinLibertine_RIah.ttf")
+  src: url("./assets/font/LinuxLibertine/LinLibertine_RIah.ttf")
 		format("TrueType");
 }
 
@@ -5506,7 +5522,7 @@ textarea.form-control.is-invalid{
 
   font-weight: 400;
 
-  src: url("/assets/font/FashionFetish/FashionFetishRegular.ttf")
+  src: url("./assets/font/FashionFetish/FashionFetishRegular.ttf")
 		format("TrueType");
 }
 
@@ -5515,7 +5531,7 @@ textarea.form-control.is-invalid{
 
   font-weight: 600;
 
-  src: url("/assets/font/FashionFetish/FashionFetishBold.ttf")
+  src: url("./assets/font/FashionFetish/FashionFetishBold.ttf")
 		format("TrueType");
 }
 
@@ -5524,7 +5540,7 @@ textarea.form-control.is-invalid{
 
   font-weight: 800;
 
-  src: url("/assets/font/FashionFetish/FashionFetishHeavy.ttf")
+  src: url("./assets/font/FashionFetish/FashionFetishHeavy.ttf")
 		format("TrueType");
 }
 

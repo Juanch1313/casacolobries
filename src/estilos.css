@@ -8,14 +8,14 @@
 @font-face {
 	font-family: "Linux";
 	font-weight: 400;
-	src: url("/assets/font/LinuxLibertine/LinLibertine_Rah.ttf")
+	src: url("./assets/font/LinuxLibertine/LinLibertine_Rah.ttf")
 		format("TrueType");
 }
 
 @font-face {
 	font-family: "Linux";
 	font-weight: 700;
-	src: url("/assets/font/LinuxLibertine/LinLibertine_RBah.ttf")
+	src: url("./assets/font/LinuxLibertine/LinLibertine_RBah.ttf")
 		format("TrueType");
 }
 
@@ -23,27 +23,27 @@
 	font-family: "Linux";
 	font-weight: 400;
 	font-style: italic;
-	src: url("/assets/font/LinuxLibertine/LinLibertine_RIah.ttf")
+	src: url("./assets/font/LinuxLibertine/LinLibertine_RIah.ttf")
 		format("TrueType");
 }
 
 @font-face {
 	font-family: "Fashion";
 	font-weight: 400;
-	src: url("/assets/font/FashionFetish/FashionFetishRegular.ttf")
+	src: url("./assets/font/FashionFetish/FashionFetishRegular.ttf")
 		format("TrueType");
 }
 
 @font-face {
 	font-family: "Fashion";
 	font-weight: 600;
-	src: url("/assets/font/FashionFetish/FashionFetishBold.ttf")
+	src: url("./assets/font/FashionFetish/FashionFetishBold.ttf")
 		format("TrueType");
 }
 
 @font-face {
 	font-family: "Fashion";
 	font-weight: 800;
-	src: url("/assets/font/FashionFetish/FashionFetishHeavy.ttf")
+	src: url("./assets/font/FashionFetish/FashionFetishHeavy.ttf")
 		format("TrueType");
 }
