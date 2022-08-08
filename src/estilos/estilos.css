@@ -2,6 +2,7 @@
 Para correr tailwind
 npx tailwindcss -i ./src/estilos.css -o ./src/estilos/output.css --watch
 */
+
 html,
 body {
 	--tw-bg-opacity: 1;

@@ -4252,6 +4252,10 @@ textarea.form-control.is-invalid{
   margin-top: 1.25rem;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .mb-1{
   margin-bottom: 0.25rem;
 }
@@ -4306,6 +4310,10 @@ textarea.form-control.is-invalid{
 
 .h-4{
   height: 1rem;
+}
+
+.h-96{
+  height: 24rem;
 }
 
 .h-9{
@@ -4374,6 +4382,14 @@ textarea.form-control.is-invalid{
 
 .flex-shrink{
   flex-shrink: 1;
+}
+
+.basis-1\/2{
+  flex-basis: 50%;
+}
+
+.basis-full{
+  flex-basis: 100%;
 }
 
 .-translate-x-full{

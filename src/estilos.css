@@ -8,14 +8,14 @@
 @font-face {
 	font-family: "Linux";
 	font-weight: 400;
-	src: url("../assets/font/LinuxLibertine/LinLibertine_Rah.ttf")
+	src: url("./assets/font/LinuxLibertine/LinLibertine_Rah.ttf")
 		format("TrueType");
 }
 
 @font-face {
 	font-family: "Linux";
 	font-weight: 700;
-	src: url("../assets/font/LinuxLibertine/LinLibertine_RBah.ttf")
+	src: url("./assets/font/LinuxLibertine/LinLibertine_RBah.ttf")
 		format("TrueType");
 }
 
