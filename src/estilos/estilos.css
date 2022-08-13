@@ -49,6 +49,7 @@ button {
 .fa-facebook:hover {
 	color: blue;
 	background-color: white;
+	border-color: #e4007c;
 	animation: vuelavuela 2s forwards;
 }
 
@@ -62,6 +63,7 @@ button {
 .fa-instagram:hover {
 	color: white;
 	background-color: #bc2a8d;
+	border-color: #e4007c;
 	animation: vuelavuela 2s forwards;
 }
 
@@ -75,6 +77,7 @@ button {
 .fa-phone:hover {
 	color: black;
 	background-color: white;
+	border-color: #e4007c;
 	animation: vuelavuela 2s forwards;
 }
 
