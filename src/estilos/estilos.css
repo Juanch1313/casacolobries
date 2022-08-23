@@ -81,6 +81,20 @@ button {
 	animation: vuelavuela 2s forwards;
 }
 
+.whats{
+	color: #212b4f;
+	font-size: 30px !important;
+	border: 5px outset #e4007c;
+	border-radius: 50%;
+}
+
+.whats:hover{
+	color: #FFF;
+	background-color: #4EFC5D;
+	border-color: #e4007c;
+	animation: vuelavuela 2s forwards;
+}
+
 @keyframes vuelavuela {
 	0% {
 		transform: rotate(0deg);
@@ -138,7 +152,7 @@ button {
 	}
 }
 .carousel-container {
-  min-height: 200px;
+  min-height: 400px;
 }
 @media screen and (max-width: 768px) {
   .carousel-container {
@@ -258,43 +272,16 @@ button {
 
 /* ---- ----- ----- Media Queries ----- ----- ----- */
 @media screen and (max-width: 800px) {
-	header .logotipo {
-		margin-bottom: 10px;
-		font-size: 30px;
-	}
-
-	header .contenedor {
-		flex-direction: column;
-		text-align: center;
-	}
 
 	.pelicula-principal {
 		font-size: 14px;
 	}
-
-	.pelicula-principal .descripcion {
-		max-width: 100%;
+	.carousel .pelicula{
+		height: 100%;
 	}
-
-	.peliculas-recomendadas .contenedor-carousel {
-		overflow: hidden;
-	}
-
-	.peliculas-recomendadas .contenedor-carousel .carousel {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 10px;
-	}
-
-	.peliculas-recomendadas .indicadores,
-	.peliculas-recomendadas .flecha-izquierda,
-	.peliculas-recomendadas .flecha-derecha {
-		display: none;
-	}
-
 	.peliculas-recomendadas .contenedor-carousel .carousel .pelicula:hover {
 		transform: scale(1.5);
 		transform-origin:center;
 	}
-	
+
 }
