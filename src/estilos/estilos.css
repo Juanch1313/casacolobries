@@ -277,13 +277,13 @@ button {
 	}
 
 	.peliculas-recomendadas .contenedor-carousel {
-		overflow: visible;
+		overflow: hidden;
 	}
 
 	.peliculas-recomendadas .contenedor-carousel .carousel {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 20px;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
 	}
 
 	.peliculas-recomendadas .indicadores,
@@ -293,8 +293,8 @@ button {
 	}
 
 	.peliculas-recomendadas .contenedor-carousel .carousel .pelicula:hover {
-		transform: scale(2);
-		transform-origin: center;
+		transform: scale(1.5);
+		transform-origin:center;
 	}
 	
 }
