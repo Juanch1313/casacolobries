@@ -257,29 +257,32 @@
 					>
 						<img
 							src="./assets/img/BannerPromocion.webp"
-							class="block  w-auto h-fit"
+							class="block  w-full max-h-[1100px]"
 							alt="Fiesta huespedes 1"
 						/>
 					</div>
 					<div class="carousel-item relative float-left w-full">
 						<img
 							src="./assets/img/huespedes/huespedes2.jpg"
-							class="block w-full"
+							class="block w-full max-h-[1100px]"
 							alt="Fiesta huespedes 2"
+							height="1000px"
 						/>
 					</div>
 					<div class="carousel-item relative float-left w-full">
 						<img
 							src="./assets/img/huespedes/huespedes3.jpg"
-							class="block w-full"
+							class="block w-full max-h-[1100px]"
 							alt="Fiesta huespedes 3"
+							height="1000px"
 						/>
 					</div>
 					<div class="carousel-item relative float-left w-full">
 						<img
 							src="./assets/img/huespedes/huespedes4.jpg"
-							class="block w-full"
+							class="block w-full max-h-[1100px]"
 							alt="Fiesta huespedes 3"
+							height="1000px"
 						/>
 					</div>
 				</div>
@@ -455,7 +458,7 @@
 						<div class="bg-[#e4007c] h-14 pb-2 opacity-90 flex">
 							<h5 class="w-full text-center text-white mt-[.3rem] text-lg uppercase font-fashion font-bold opacity-90">Cuidado y Vida Asistida </h5>
 						</div>
-						<p class="text-gray-700 text-base mb-4 w-11/12 m-auto opacity-70">
+						<p class="text-gray-700 text-base mb-4 w-11/12 text-justify m-auto opacity-70">
 							Programa de cuidado y compañía para personas independientes o que requieren ayuda en sus actividades de la vida diaria reforzando la socialización y estabilidad mental y emocional.
 						</p>
 					  </div>
@@ -469,7 +472,7 @@
 							<div class="bg-[#e4007c] h-14 pb-4 opacity-90 flex">
 								<h5 class="text-white mt-4 shadow-2xl text-lg uppercase font-fashion text-center font-bold opacity-90 m-auto">Siempre en mi mente</h5>
 							</div>
-						  <p class="text-gray-700 text-base w-11/12 m-auto opacity-70">
+						  <p class="text-gray-700 text-base w-11/12 text-justify m-auto opacity-70">
 							Programa especializado para personas que comienzan con problemas de memoria, ayudándoles a llevar una vida independiente el mayor tiempo posible.
 							<br>
 						  </p>
@@ -484,7 +487,7 @@
 							<div class="bg-[#e4007c] h-14 pb-4 opacity-90 flex">
 								<h5 class="text-white mt-4 text-lg uppercase font-fashion text-center font-bold m-auto">Estancia diurna</h5>
 							</div>
-						  <p class="text-gray-700 text-base mb-4 w-11/12 m-auto opacity-70">
+						  <p class="text-gray-700 text-base mb-4 w-11/12 m-auto text-justify opacity-70">
 							Comidas, actividades y convivencia diaria durante el día, en horarios a convenir. Esta opción es ideal para que nuestros residentes socialicen y disfruten con nuestra familia sin la estadía permanente.
 						  </p>
 						</div>
@@ -498,7 +501,7 @@
 							<div class="bg-[#e4007c] h-14 pb-4 opacity-90 flex">
 								<h5 class="text-white mt-2 text-sm uppercase font-fashion text-center font-bold opacity-90">Corta estancia o pre y post operatorio</h5>
 							</div>
-						  <p class="text-gray-700 text-base mb-4 w-11/12 m-auto opacity-70">
+						  <p class="text-gray-700 text-base mb-4 w-11/12 text-justify m-auto opacity-70">
 							Para residentes que requieran recuperación de alguna operación, quieran pasar una temporada vacacional o disfrutar y probar del servicio de excelencia de Casa Colibríes.
 						  </p>
 						</div>
@@ -532,11 +535,9 @@
 					Actividades y Servicios
 				</h2>
 			</div>
-			<div class="carousel-container w-full max-w-[259.5px] md:max-w-3xl lg:max-w-[64.8rem]">
-				<div class="carousel-inner">
-				  <div class="track">
-					<!--Modal button-->
-					<button type="button" class="
+			<div class="modales w-full grid grid-cols-2 lg:grid-cols-4 gap-2 justify-items-center">
+				<button type="button" class="
+						h-[250px] w-[250px]
 						text-white
 						font-medium
 						text-xs
@@ -549,7 +550,7 @@
 						ease-in-out" data-bs-toggle="modal" data-bs-target="#Familia">
 						<div class="card-container">
 						<div class="card transition duration-500">
-							<div class="img"><img class="h-full" src="./assets/img/HuespedesNuevo/Huespedes1.webp" alt="imagen fiesta huespedes"></div>
+							<div class="img"><img class="h-[250px] w-[250px]" src="./assets/img/HuespedesNuevo/Huespedes1.webp" alt="imagen fiesta huespedes"></div>
 							<div class="info text-base text-center">
 								CONOCE A TU NUEVA FAMILIA
 							</div>
@@ -557,8 +558,8 @@
 						</div>
 					</button>
 
-					<!--Modal button-->
 					<button type="button" class="
+						h-[250px] w-[250px]
 						text-white
 						font-medium
 						text-xs
@@ -571,7 +572,7 @@
 						ease-in-out" data-bs-toggle="modal" data-bs-target="#Medic">
 						<div class="card-container">
 							<div class="card transition duration-500">
-							  <div class="img"><img class="h-full" src="./assets/img/HuespedesNuevo/Medico.webp" alt="imagen fiesta huespedes"></div>
+							  <div class="img"><img class="h-[250px] w-[250px]" src="./assets/img/HuespedesNuevo/Medico.webp" alt="imagen fiesta huespedes"></div>
 							  <div class="info text-lg text-center">
 								  MEDICO RESIDENTE
 							  </div>
@@ -579,100 +580,103 @@
 						  </div>
 					</button>
 
-
-					<!--Modal button-->
 					<button type="button" class="
-						text-white
-						font-medium
-						text-xs
-						leading-tight
-						uppercase
-						rounded
-						shadow-md
-						transition
-						duration-150
-						ease-in-out" data-bs-toggle="modal" data-bs-target="#Manual">
-						<div class="card-container">
-						<div class="card transition duration-500">
-							<div class="img"><img class="h-full" src="./assets/img/HuespedesNuevo/Manualidades.webp" alt="imagen fiesta huespedes"></div>
-							<div class="info text-lg text-center">
-								MANUALIDADES
-							</div>
+					lg:m-0
+					mt-12
+					h-[250px] w-[250px]
+					text-white
+					font-medium
+					text-xs
+					leading-tight
+					uppercase
+					rounded
+					shadow-md
+					transition
+					duration-150
+					ease-in-out" data-bs-toggle="modal" data-bs-target="#Manual">
+					<div class="card-container">
+					<div class="card transition duration-500">
+						<div class="img"><img class=" h-[250px] w-[250px]" src="./assets/img/HuespedesNuevo/Manualidades.webp" alt="imagen fiesta huespedes"></div>
+						<div class="info text-lg text-center">
+							MANUALIDADES
 						</div>
+					</div>
+					</div>
+				</button>
+
+				<button type="button" class="
+				h-[250px] w-[250px]
+				lg:m-0
+				mt-12
+				text-white
+				font-medium
+				text-xs
+				leading-tight
+				uppercase
+				rounded
+				shadow-md
+				transition
+				duration-150
+				ease-in-out" data-bs-toggle="modal" data-bs-target="#Movilidad">
+				<div class="card-container">
+				<div class="card transition duration-500">
+					<div class="img"><img class="h-[250px] w-[250px]" src="./assets/img/huespedes/huespedes9.jpg" alt="imagen fiesta huespedes"></div>
+					<div class="info text-lg text-center">
+						MOVILIDAD Y BAILE
+					</div>
+				</div>
+				</div>
+			</button>
+
+				<button type="button" class="
+				h-[250px] w-[250px]
+				mt-12
+				text-white
+				font-medium
+				text-xs
+				leading-tight
+				uppercase
+				rounded
+				shadow-md
+				transition
+				duration-150
+				ease-in-out" data-bs-toggle="modal" data-bs-target="#Asistencia">
+				<div class="card-container">
+				<div class="card transition duration-500">
+					<div class="img"><img class="h-[250px] w-[250px]" src="./assets/img/HuespedesNuevo/Psicologica.webp" alt="imagen fiesta huespedes"></div>
+					<div class="info text-lg text-center">
+						ASISTENCIA PSICOLOGICA
+					</div>
+					</div>
+					</div>
+				</button>
+
+				<button type="button" class="
+				mt-12
+				h-[250px] w-[250px]
+				text-white
+				font-medium
+				text-xs
+				leading-tight
+				uppercase
+				rounded
+				shadow-md
+				transition
+				duration-150
+				ease-in-out" data-bs-toggle="modal" data-bs-target="#Meditacion">
+				<div class="card-container">
+					<div class="card transition duration-500">
+						<div class="img"><img class="h-[250px] w-[250px]" src="./assets/img/HuespedesNuevo/Huespedes3.webp" alt="imagen fiesta huespedes"></div>
+						<div class="info text-lg text-center">
+							MEDITACION
 						</div>
-					</button>
+					</div>
+				</div>
+			</button>
 
-
-					<!--Modal button-->
-					<button type="button" class="
-						text-white
-						font-medium
-						text-xs
-						leading-tight
-						uppercase
-						rounded
-						shadow-md
-						transition
-						duration-150
-						ease-in-out" data-bs-toggle="modal" data-bs-target="#Movilidad">
-						<div class="card-container">
-						<div class="card transition duration-500">
-							<div class="img"><img class="h-full" src="./assets/img/huespedes/huespedes9.jpg" alt="imagen fiesta huespedes"></div>
-							<div class="info text-lg text-center">
-								MOVILIDAD Y BAILE
-							</div>
-						</div>
-						</div>
-					</button>
-
-
-					<!--Modal button-->
-					<button type="button" class="
-						text-white
-						font-medium
-						text-xs
-						leading-tight
-						uppercase
-						rounded
-						shadow-md
-						transition
-						duration-150
-						ease-in-out" data-bs-toggle="modal" data-bs-target="#Asistencia">
-						<div class="card-container">
-						<div class="card transition duration-500">
-							<div class="img"><img class="h-full" src="./assets/img/HuespedesNuevo/Psicologica.webp" alt="imagen fiesta huespedes"></div>
-							<div class="info text-lg text-center">
-								ASISTENCIA PSICOLOGICA
-							</div>
-						</div>
-						</div>
-					</button>
-
-					<!--Modal button-->
-					<button type="button" class="
-						text-white
-						font-medium
-						text-xs
-						leading-tight
-						uppercase
-						rounded
-						shadow-md
-						transition
-						duration-150
-						ease-in-out" data-bs-toggle="modal" data-bs-target="#Meditacion">
-						<div class="card-container">
-							<div class="card transition duration-500">
-								<div class="img"><img class="h-full" src="./assets/img/HuespedesNuevo/Huespedes3.webp" alt="imagen fiesta huespedes"></div>
-								<div class="info text-lg text-center">
-									MEDITACION
-								</div>
-							</div>
-						</div>
-					</button>
-
-
-					<!--Modal button-->
-					<button type="button" class="
+			<button type="button" class="
+			mt-12
+						h-[250px] w-[250px]
 						text-white
 						font-medium
 						text-xs
@@ -685,7 +689,7 @@
 						ease-in-out" data-bs-toggle="modal" data-bs-target="#Esparcimiento">
 					<div class="card-container">
 						<div class="card transition duration-500">
-							<div class="img"><img class="h-full" src="./assets/img/HuespedesNuevo/Diversificacion.webp" alt="imagen fiesta huespedes"></div>
+							<div class="img"><img class="h-[250px] w-[250px]" src="./assets/img/HuespedesNuevo/Diversificacion.webp" alt="imagen fiesta huespedes"></div>
 							<div class="info text-lg text-center">
 								ESPARCIMIENTO
 							</div>
@@ -693,21 +697,29 @@
 						</div>
 					</button>
 
-				  </div>
-				</div>
-				<div class="nav">
-				  <button class="prev">
-					<i class="material-icons">
-					keyboard_arrow_left
-					</i>
-				  </button>
-				  <button class="next">
-					<i class="material-icons">
-					keyboard_arrow_right
-					</i>
-				  </button>
-				</div>
-			  </div>
+					<button type="button" class="
+					mt-12
+						h-[250px] w-[250px]
+						text-white
+						font-medium
+						text-xs
+						leading-tight
+						uppercase
+						rounded
+						shadow-md
+						transition
+						duration-150
+						ease-in-out" data-bs-toggle="modal" data-bs-target="#Visitas">
+					<div class="card-container">
+						<div class="card transition duration-500">
+							<div class="img"><img class="h-[250px] w-[250px]" src="./assets/img/huespedes/huespedes15.jpg" alt="imagen fiesta huespedes"></div>
+							<div class="info text-lg text-center">
+								VISITAS
+							</div>
+						</div>
+						</div>
+					</button>
+			</div>
 			  <!--Modals containters-->
 			  <!-- Modal -->
 				<div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
@@ -988,6 +1000,218 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+			id="Visitas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog relative w-auto pointer-events-none">
+				<div
+					class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+					<div
+						class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+						<h5 class="text-xl font-medium leading-normal text-gray-800 uppercase" id="exampleModalLabel">Visitas</h5>
+						<button type="button"
+							class="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+							data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body relative p-4">
+						Aunque sabemos que les encantan nuestras instalaciones, tenemos visitas a nuestra parroquia, nuestros parques de alrededores, cine y más.
+						<img src="./assets/img/huespedes/huespedes15.jpg" alt="Huespedes conviviendo">
+					</div>
+					<div
+						class="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
+						<button type="button" class="px-6
+				py-2.5
+				bg-purple-600
+				text-white
+				font-medium
+				text-xs
+				leading-tight
+				uppercase
+				rounded
+				shadow-md
+				hover:bg-purple-700 hover:shadow-lg
+				focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0
+				active:bg-purple-800 active:shadow-lg
+				transition
+				duration-150
+				ease-in-out" data-bs-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		</div>
+
+		<div class="hogar">
+			<div
+			class="bg-gradient-to-l from-[#212b4f] to-[#212b4f] py-10 mb-8"
+		>
+			<h2
+				class=" text-center text-[1.40rem] md:text-3xl font-fashion font-extrabold text-[#ffffff] drop-shadow-[0_0_2px_rgba(33,43,79,0.30)]"
+			>
+				Tú hogar
+			</h2>
+		</div>
+			<div
+			id="carruselPrincipal2"
+			class="carousel slide carousel-fade relative z-0 shadow-[0_5px_20px_1px_rgba(0,0,0,.25)]"
+			data-bs-ride="carousel1"
+		>
+			<div
+				class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4"
+			>
+				<button
+					type="button"
+					data-bs-target="#carruselPrincipal2"
+					data-bs-slide-to="0"
+					class="active"
+					aria-current="true"
+					aria-label="Slide 1"
+				></button>
+				<button
+					type="button"
+					data-bs-target="#carruselPrincipal2"
+					data-bs-slide-to="1"
+					aria-label="Slide 2"
+				></button>
+				<button
+					type="button"
+					data-bs-target="#carruselPrincipal2"
+					data-bs-slide-to="2"
+					aria-label="Slide 3"
+				/>
+				<button
+				type="button"
+				data-bs-target="#carruselPrincipal2"
+				data-bs-slide-to="3"
+				aria-label="Slide 4"
+				/>
+				<button
+				type="button"
+				data-bs-target="#carruselPrincipal2"
+				data-bs-slide-to="4"
+				aria-label="Slide 5"
+				/>
+				<button
+				type="button"
+				data-bs-target="#carruselPrincipal2"
+				data-bs-slide-to="5"
+				aria-label="Slide 6"
+				/>
+				<button
+				type="button"
+				data-bs-target="#carruselPrincipal2"
+				data-bs-slide-to="6"
+				aria-label="Slide 7"
+				/>
+				<button
+				type="button"
+				data-bs-target="#carruselPrincipal2"
+				data-bs-slide-to="7"
+				aria-label="Slide 8"
+				/>
+				<button
+				type="button"
+				data-bs-target="#carruselPrincipal2"
+				data-bs-slide-to="8"
+				aria-label="Slide 9"
+				/>
+				<button
+				type="button"
+				data-bs-target="#carruselPrincipal2"
+				data-bs-slide-to="9"
+				aria-label="Slide 10"
+				/>
+				<button
+				type="button"
+				data-bs-target="#carruselPrincipal2"
+				data-bs-slide-to="10"
+				aria-label="Slide 11"
+				/>
+			</div>
+			<div class="carousel-inner relative w-full lg:h-full overflow-hidden">
+				<div
+					class="carousel-item active relative float-left w-full"
+				>
+					<img
+						src="./assets/img/Hogar/hogar3.jpeg"
+						class="block  w-full max-h-[800px]"
+						alt="Fiesta huespedes 1"
+					/>
+				</div>
+				<div class="carousel-item relative float-left w-full">
+					<img
+						src="./assets/img/Hogar/hogar4.jpeg"
+						class="block w-full max-h-[800px]"
+						alt="Fiesta huespedes 2"
+
+					/>
+				</div>
+				<div class="carousel-item relative float-left w-full">
+					<img
+						src="./assets/img/Hogar/hogar6.jpeg"
+						class="block w-full max-h-[800px]"
+						alt="Fiesta huespedes 3"
+					/>
+				</div>
+				<div class="carousel-item relative float-left w-full">
+					<img
+						src="./assets/img/Hogar/hogar10.jpeg"
+						class="block w-full max-h-[800px]"
+						alt="Fiesta huespedes 3"
+					/>
+				</div>
+				<div class="carousel-item relative float-left w-full">
+					<img
+						src="./assets/img/Hogar/hogar11.jpeg"
+						class="block w-full max-h-[800px]"
+						alt="Fiesta huespedes 3"
+					/>
+				</div>
+				<div class="carousel-item relative float-left w-full">
+					<img
+						src="./assets/img/Hogar/hogar12.jpeg"
+						class="block w-full max-h-[800px]"
+						alt="Fiesta huespedes 3"
+					/>
+				</div>
+				<div class="carousel-item relative float-left w-full">
+					<img
+						src="./assets/img/Hogar/hogar13.jpeg"
+						class="block w-full max-h-[800px]"
+						alt="Fiesta huespedes 3"
+					/>
+				</div>
+				<div class="carousel-item relative float-left w-full">
+					<img
+						src="./assets/img/Hogar/hogar15.jpeg"
+						class="block w-full max-h-[800px]"
+						alt="Fiesta huespedes 3"
+					/>
+				</div>
+				<div class="carousel-item relative float-left w-full">
+					<img
+						src="./assets/img/Hogar/hogar16.jpeg"
+						class="block w-full max-h-[800px]"
+						alt="Fiesta huespedes 3"
+					/>
+				</div>
+				<div class="carousel-item relative float-left w-full">
+					<img
+						src="./assets/img/Hogar/hogar20.jpeg"
+						class="block w-full max-h-[800px]"
+						alt="Fiesta huespedes 3"
+					/>
+				</div>
+				<div class="carousel-item relative float-left w-full">
+					<img
+						src="./assets/img/Hogar/hogar22.jpeg"
+						class="block w-full max-h-[800px]"
+						alt="Fiesta huespedes 3"
+					/>
+				</div>
+			</div>
+		</div>
 		</div>
 
     <div id="ubicacion" class="">
